@@ -1,0 +1,116 @@
+{
+  "jobs": [
+    {
+      "title": "Senior Vue Dev",
+      "type": "Full-Time",
+      "location": "Boston, MA",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "1"
+    },
+    {
+      "type": "Full-Time",
+      "title": "Backend Engineer (Python/Django)- 2",
+      "description": "We are looking for a skilled Backend Engineer with experience in Python and Django to join our growing team. The ideal candidate will have a strong understanding of web development principles and experience building and maintaining scalable backend systems. Rab",
+      "salary": "$80K - $90K",
+      "location": "Remote (optional)",
+      "company": {
+        "name": "Acme Corporation",
+        "description": "Acme Corporation is a leading provider of innovative products and services. We are a fast-paced and dynamic company that is always looking for talented individuals to join our team.",
+        "contactEmail": "careers@acmecorp.com",
+        "contactPhone": "1-800-ACME-HELP"
+      },
+      "id": "2"
+    },
+    {
+      "title": "UX/UI Designer",
+      "type": "Full-Time",
+      "location": "San Francisco, CA",
+      "description": "Are you a passionate and creative UX/UI Designer with a keen eye for detail? We are looking for a talented individual to join our team and help us create user-friendly and visually appealing interfaces for our products.",
+      "salary": "$75K - $85K",
+      "company": {
+        "name": "Designify",
+        "description": "Designify is a leading design agency that specializes in creating beautiful and functional user experiences. We are a team of passionate and creative individuals who are always looking for new ways to push the boundaries of design.",
+        "contactEmail": "info@designify.com",
+        "contactPhone": ""
+      },
+      "id": "3"
+    },
+    {
+      "title": "Front-End Developer (React)",
+      "type": "Part-Time",
+      "location": "Austin, TX",
+      "description": "We are looking for a talented Front-End Developer with experience in React to join our team on a part-time basis. The ideal candidate will have a strong understanding of web development principles and experience building user interfaces with React.",
+      "salary": "Hourly",
+      "company": {
+        "name": "InnoTech Solutions",
+        "description": "InnoTech Solutions is a leading provider of innovative technology solutions. We are a growing company that is always looking for talented individuals to join our team.",
+        "contactEmail": "jobs@innotech.com",
+        "contactPhone": ""
+      },
+      "id": "4"
+    },
+    {
+      "title": "Full Stack Developer (MERN)",
+      "type": "Full-Time",
+      "location": "Remote",
+      "description": "We are looking for a skilled Full Stack Developer with experience in the MERN stack (MongoDB, Express, React, Node.js) to join our growing team. The ideal candidate will have a strong understanding of both front-end and back-end development.",
+      "salary": "$100K - $120K",
+      "company": {
+        "name": "CloudTech",
+        "description": "CloudTech is a leading provider of cloud-based solutions. We are a fast-paced and innovative company that is always looking for talented individuals to join our team.",
+        "contactEmail": "careers@cloudtech.com",
+        "contactPhone": "415-555-1234"
+      },
+      "id": "5"
+    },
+    {
+      "title": "Data Scientist",
+      "type": "Full-Time",
+      "location": "New York, NY",
+      "description": "We are seeking a talented Data Scientist to join our team and help us leverage data to drive business decisions. The ideal candidate will have a strong understanding of data analysis and machine learning techniques.",
+      "salary": "$120K - $150K",
+      "company": {
+        "name": "DataDriven Solutions",
+        "description": "DataDriven Solutions is a leading data analytics company that helps businesses extract valuable insights from their data. We are a team of passionate and skilled data scientists who are dedicated to delivering innovative solutions.",
+        "contactEmail": "data@ddsolutions.com",
+        "contactPhone": "212-555-3456"
+      },
+      "id": "6"
+    },
+    {
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "location": "Seattle, WA",
+      "description": "We are looking for a talented Product Manager to join our team and drive the development of our products. The ideal candidate will have strong product management skills and a passion for creating innovative solutions.",
+      "salary": "$100K - $120K",
+      "company": {
+        "name": "TechInnovations",
+        "description": "TechInnovations is a leading technology company that develops innovative products and solutions. We are a team of passionate and talented individuals who are committed to excellence.",
+        "contactEmail": "product@techinnovations.com",
+        "contactPhone": "206-555-7890"
+      },
+      "id": "7"
+    },
+    {
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "location": "Remote",
+      "description": "We are looking for a skilled DevOps Engineer to join our team and help us build and maintain our cloud infrastructure. The ideal candidate will have experience with automation tools and cloud platforms.",
+      "salary": "$90K - $110K",
+      "company": {
+        "name": "CloudOps",
+        "description": "CloudOps is a leading provider of cloud infrastructure and DevOps services. We are a team of experienced professionals who are dedicated to delivering high-quality solutions.",
+        "contactEmail": "devops@cloudops.com",
+        "contactPhone": "703-555-4321"
+      },
+      "id": "8"
+    }
+  ]
+}
