@@ -111,6 +111,20 @@
         "contactPhone": "703-555-4321"
       },
       "id": "8"
+    },
+    {
+      "id": "f3fc",
+      "type": "Remote",
+      "title": "asdasd",
+      "description": "asdasdxc sfdasdf",
+      "salary": "$50K - $60K",
+      "location": "sdfasdf",
+      "company": {
+        "name": "sadfasdf",
+        "description": "asdfasdf",
+        "contactEmail": "rabeerd@gmail.com",
+        "contactPhone": "0684784523"
+      }
     }
   ]
 }
