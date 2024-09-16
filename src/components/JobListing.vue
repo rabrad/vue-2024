@@ -1,16 +1,31 @@
-<script setup>
+<script setup lang="ts">
 import { defineProps, ref, computed } from 'vue';
 import { RouterLink } from 'vue-router';
 
-const props = defineProps({
-    job: Object
-})
+interface Job {
+    id: number;
+    title: string;
+    description: string;
+    type: string;
+    salary: string;
+    location: string;
+    company: {
+        name: string;
+        description: string;
+        contactEmail: string;
+        contactPhone: string;
+    };
+}
 
-const showFullDescription = ref(false)
+const props = defineProps<{
+    job: Job
+}>();
+
+const showFullDescription = ref(false);
 
 const toggleDescription = () => {
     showFullDescription.value = !showFullDescription.value;
-}
+};
 
 const truncatedDescription = computed(() => {
     let description = props.job.description;
@@ -19,9 +34,7 @@ const truncatedDescription = computed(() => {
         description = description.substring(0, 90) + '...';
     }
     return description;
-})
-
-
+});
 </script>
 
 <template>

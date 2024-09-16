@@ -1,31 +1,46 @@
-<script setup>
-import { ref, defineProps, onMounted, reactive } from 'vue';
-// import jobData from '@/jobs.json';
+<script setup lang="ts">
+import { onMounted, reactive } from 'vue';
 import JobListing from '@/components/JobListing.vue';
 import { RouterLink } from 'vue-router';
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
+interface Job {
+    id: number;
+    title: string;
+    description: string;
+    type: string;
+    salary: string;
+    location: string;
+    company: {
+        name: string;
+        description: string;
+        contactEmail: string;
+        contactPhone: string;
+    };
+}
 
-defineProps({
-    limit: Number,
-    showButton: {
-        type: Boolean,
-        default: false
-    }
-})
+interface Props {
+    limit?: number;
+    showButton?: boolean;
+}
 
+const props = withDefaults(defineProps<Props>(), {
+    limit: undefined,
+    showButton: false
+});
 
-// Using reactive instead of ref(). See https://vuejsdevelopers.com/2022/06/01/ref-vs-reactive/
-const state = reactive({
+const state = reactive<{
+    jobs: Job[];
+    isLoading: boolean;
+}>({
     jobs: [],
     isLoading: true
-
 });
 
 onMounted(async () => {
     try {
         const response = await fetch('/api/jobs')
-        const jobData = await response.json();
+        const jobData: Job[] = await response.json();
         state.jobs = jobData;
     } catch (error) {
         console.error('Error fetching jobs:', error);
@@ -33,9 +48,6 @@ onMounted(async () => {
         state.isLoading = false
     }
 })
-
-
-
 </script>
 
 <template>
